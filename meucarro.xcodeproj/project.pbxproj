@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F463289E1F283E2F00E67832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463289D1F283E2F00E67832 /* AppDelegate.swift */; };
+		F46328A01F283E2F00E67832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463289F1F283E2F00E67832 /* ViewController.swift */; };
+		F46328A31F283E2F00E67832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46328A11F283E2F00E67832 /* Main.storyboard */; };
+		F46328A61F283E2F00E67832 /* meucarro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F46328A41F283E2F00E67832 /* meucarro.xcdatamodeld */; };
+		F46328A81F283E2F00E67832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46328A71F283E2F00E67832 /* Assets.xcassets */; };
+		F46328AB1F283E2F00E67832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46328A91F283E2F00E67832 /* LaunchScreen.storyboard */; };
+		F46328B61F283E2F00E67832 /* meucarroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46328B51F283E2F00E67832 /* meucarroTests.swift */; };
+		F46328C11F283E2F00E67832 /* meucarroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46328C01F283E2F00E67832 /* meucarroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46328B21F283E2F00E67832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46328921F283E2F00E67832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46328991F283E2F00E67832;
+			remoteInfo = meucarro;
+		};
+		F46328BD1F283E2F00E67832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46328921F283E2F00E67832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46328991F283E2F00E67832;
+			remoteInfo = meucarro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F463289A1F283E2F00E67832 /* meucarro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meucarro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F463289D1F283E2F00E67832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F463289F1F283E2F00E67832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46328A21F283E2F00E67832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46328A51F283E2F00E67832 /* meucarro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meucarro.xcdatamodel; sourceTree = "<group>"; };
+		F46328A71F283E2F00E67832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46328AA1F283E2F00E67832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46328AC1F283E2F00E67832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46328B11F283E2F00E67832 /* meucarroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meucarroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46328B51F283E2F00E67832 /* meucarroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meucarroTests.swift; sourceTree = "<group>"; };
+		F46328B71F283E2F00E67832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46328BC1F283E2F00E67832 /* meucarroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meucarroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46328C01F283E2F00E67832 /* meucarroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meucarroUITests.swift; sourceTree = "<group>"; };
+		F46328C21F283E2F00E67832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46328971F283E2F00E67832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328AE1F283E2F00E67832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328B91F283E2F00E67832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46328911F283E2F00E67832 = {
+			isa = PBXGroup;
+			children = (
+				F463289C1F283E2F00E67832 /* meucarro */,
+				F46328B41F283E2F00E67832 /* meucarroTests */,
+				F46328BF1F283E2F00E67832 /* meucarroUITests */,
+				F463289B1F283E2F00E67832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F463289B1F283E2F00E67832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F463289A1F283E2F00E67832 /* meucarro.app */,
+				F46328B11F283E2F00E67832 /* meucarroTests.xctest */,
+				F46328BC1F283E2F00E67832 /* meucarroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F463289C1F283E2F00E67832 /* meucarro */ = {
+			isa = PBXGroup;
+			children = (
+				F463289D1F283E2F00E67832 /* AppDelegate.swift */,
+				F463289F1F283E2F00E67832 /* ViewController.swift */,
+				F46328A11F283E2F00E67832 /* Main.storyboard */,
+				F46328A71F283E2F00E67832 /* Assets.xcassets */,
+				F46328A91F283E2F00E67832 /* LaunchScreen.storyboard */,
+				F46328AC1F283E2F00E67832 /* Info.plist */,
+				F46328A41F283E2F00E67832 /* meucarro.xcdatamodeld */,
+			);
+			path = meucarro;
+			sourceTree = "<group>";
+		};
+		F46328B41F283E2F00E67832 /* meucarroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F46328B51F283E2F00E67832 /* meucarroTests.swift */,
+				F46328B71F283E2F00E67832 /* Info.plist */,
+			);
+			path = meucarroTests;
+			sourceTree = "<group>";
+		};
+		F46328BF1F283E2F00E67832 /* meucarroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F46328C01F283E2F00E67832 /* meucarroUITests.swift */,
+				F46328C21F283E2F00E67832 /* Info.plist */,
+			);
+			path = meucarroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46328991F283E2F00E67832 /* meucarro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46328C51F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarro" */;
+			buildPhases = (
+				F46328961F283E2F00E67832 /* Sources */,
+				F46328971F283E2F00E67832 /* Frameworks */,
+				F46328981F283E2F00E67832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meucarro;
+			productName = meucarro;
+			productReference = F463289A1F283E2F00E67832 /* meucarro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46328B01F283E2F00E67832 /* meucarroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46328C81F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarroTests" */;
+			buildPhases = (
+				F46328AD1F283E2F00E67832 /* Sources */,
+				F46328AE1F283E2F00E67832 /* Frameworks */,
+				F46328AF1F283E2F00E67832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46328B31F283E2F00E67832 /* PBXTargetDependency */,
+			);
+			name = meucarroTests;
+			productName = meucarroTests;
+			productReference = F46328B11F283E2F00E67832 /* meucarroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F46328BB1F283E2F00E67832 /* meucarroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46328CB1F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarroUITests" */;
+			buildPhases = (
+				F46328B81F283E2F00E67832 /* Sources */,
+				F46328B91F283E2F00E67832 /* Frameworks */,
+				F46328BA1F283E2F00E67832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46328BE1F283E2F00E67832 /* PBXTargetDependency */,
+			);
+			name = meucarroUITests;
+			productName = meucarroUITests;
+			productReference = F46328BC1F283E2F00E67832 /* meucarroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46328921F283E2F00E67832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cordova labs";
+				TargetAttributes = {
+					F46328991F283E2F00E67832 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T4H78CRT5T;
+						ProvisioningStyle = Automatic;
+					};
+					F46328B01F283E2F00E67832 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T4H78CRT5T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F46328991F283E2F00E67832;
+					};
+					F46328BB1F283E2F00E67832 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T4H78CRT5T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F46328991F283E2F00E67832;
+					};
+				};
+			};
+			buildConfigurationList = F46328951F283E2F00E67832 /* Build configuration list for PBXProject "meucarro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46328911F283E2F00E67832;
+			productRefGroup = F463289B1F283E2F00E67832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46328991F283E2F00E67832 /* meucarro */,
+				F46328B01F283E2F00E67832 /* meucarroTests */,
+				F46328BB1F283E2F00E67832 /* meucarroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46328981F283E2F00E67832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46328AB1F283E2F00E67832 /* LaunchScreen.storyboard in Resources */,
+				F46328A81F283E2F00E67832 /* Assets.xcassets in Resources */,
+				F46328A31F283E2F00E67832 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328AF1F283E2F00E67832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328BA1F283E2F00E67832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46328961F283E2F00E67832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46328A01F283E2F00E67832 /* ViewController.swift in Sources */,
+				F463289E1F283E2F00E67832 /* AppDelegate.swift in Sources */,
+				F46328A61F283E2F00E67832 /* meucarro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328AD1F283E2F00E67832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46328B61F283E2F00E67832 /* meucarroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46328B81F283E2F00E67832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46328C11F283E2F00E67832 /* meucarroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46328B31F283E2F00E67832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46328991F283E2F00E67832 /* meucarro */;
+			targetProxy = F46328B21F283E2F00E67832 /* PBXContainerItemProxy */;
+		};
+		F46328BE1F283E2F00E67832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46328991F283E2F00E67832 /* meucarro */;
+			targetProxy = F46328BD1F283E2F00E67832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F46328A11F283E2F00E67832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46328A21F283E2F00E67832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F46328A91F283E2F00E67832 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46328AA1F283E2F00E67832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46328C31F283E2F00E67832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46328C41F283E2F00E67832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46328C61F283E2F00E67832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F46328C71F283E2F00E67832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F46328C91F283E2F00E67832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meucarro.app/meucarro";
+			};
+			name = Debug;
+		};
+		F46328CA1F283E2F00E67832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meucarro.app/meucarro";
+			};
+			name = Release;
+		};
+		F46328CC1F283E2F00E67832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = meucarro;
+			};
+			name = Debug;
+		};
+		F46328CD1F283E2F00E67832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T4H78CRT5T;
+				INFOPLIST_FILE = meucarroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cordovalabs.meucarroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = meucarro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46328951F283E2F00E67832 /* Build configuration list for PBXProject "meucarro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46328C31F283E2F00E67832 /* Debug */,
+				F46328C41F283E2F00E67832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46328C51F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46328C61F283E2F00E67832 /* Debug */,
+				F46328C71F283E2F00E67832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F46328C81F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46328C91F283E2F00E67832 /* Debug */,
+				F46328CA1F283E2F00E67832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F46328CB1F283E2F00E67832 /* Build configuration list for PBXNativeTarget "meucarroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46328CC1F283E2F00E67832 /* Debug */,
+				F46328CD1F283E2F00E67832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F46328A41F283E2F00E67832 /* meucarro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F46328A51F283E2F00E67832 /* meucarro.xcdatamodel */,
+			);
+			currentVersion = F46328A51F283E2F00E67832 /* meucarro.xcdatamodel */;
+			path = meucarro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F46328921F283E2F00E67832 /* Project object */;
+}
